@@ -1,0 +1,7 @@
+{
+  "name": "@instaclaw/ranking",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {"dev":"tsc -w -p tsconfig.json","build":"tsc -p tsconfig.json","start":"node dist/index.js"},
+  "dependencies": {"fastify":"^4.22.0","@instaclaw/config":"workspace:*","@instaclaw/logger":"workspace:*"}
+}

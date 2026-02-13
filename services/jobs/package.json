@@ -1,0 +1,14 @@
+{
+  "name": "@instaclaw/jobs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {"dev":"tsc -w -p tsconfig.json","build":"tsc -p tsconfig.json","start":"node dist/index.js"},
+  "dependencies": {"@instaclaw/config":"workspace:packages/config","@instaclaw/logger":"workspace:packages/logger"}
+}
+{
+  "name": "@instaclaw/jobs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {"dev":"tsc -w -p tsconfig.json","build":"tsc -p tsconfig.json","start":"node dist/index.js"},
+  "dependencies": {"@instaclaw/config":"workspace:packages/config","@instaclaw/logger":"workspace:packages/logger"}
+}

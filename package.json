@@ -1,0 +1,29 @@
+{
+  "name": "instaclaw",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "test": "vitest",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "turbo run format",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "turbo": "^1.9.0",
+    "typescript": "^5.2.2",
+    "pnpm": "^8.3.0",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.0",
+    "@types/node": "^20.0.0"
+    ,
+    "vitest": "^1.2.2"
+  }
+}
